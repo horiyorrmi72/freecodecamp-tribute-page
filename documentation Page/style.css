@@ -1,0 +1,20 @@
+code{
+    background-color: rgb(25, 216, 66);
+}
+#navbar{
+    width: 25%;
+    height: 920px;
+    padding: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+@media(max-width:660px){
+    code{
+        background-color: cornflowerblue;
+    }
+    #navbar{
+        float: left;
+        position: fixed;
+        width: 450px;   
+    }
+}
