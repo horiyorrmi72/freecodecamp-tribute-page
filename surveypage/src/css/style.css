@@ -1,0 +1,14 @@
+h1,h2{
+    text-transform: capitalize;
+}
+header{
+    text-align: center;
+    background-color:gainsboro;
+}
+#main{
+background-color: cadetblue; 
+margin: auto;
+}
+input{
+    width: 20%;
+}

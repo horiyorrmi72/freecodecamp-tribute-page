@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#title{
+    text-align: center;
+    background-color: burlywood;
+    text-transform: capitalize;
+}
+img{
+    max-width: 90%;
+    height: auto;
+    margin: 5%;
+    margin-bottom: 2%;
+    display:block;
+
+}
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#tribute-info{
+    background-color: khaki;
+    line-height: normal;
+}
+#tribute-info h2{
+    text-transform: capitalize;
+}
+#tribute-info li{
+    margin: 5px;
+}
+@media(max-width:800px){
+    #title{
+        text-align: center;
+        background-color: blue;
+        text-transform: capitalize;
+    }
+    img{
+        width: auto;
+        height: auto;
+        margin: 5%;
+        margin-bottom: 2%;
+    
+    } 
+    #tribute-info{
+        background-color: greenyellow;
+        line-height: normal;
+    }     
+}

@@ -1,0 +1,22 @@
+@media (max-width:800px){
+    body{
+        background-color: cadetblue;
+    }
+    .nav-link{
+        float: left;
+        margin-left: 30px;
+        text-align: center;
+      display:inline-flex;
+    }
+    .header-title{
+        text-align: center;
+    }
+    #services{
+        float: left;
+    }
+
+}
+#header{
+    position:fixed;
+    top:0px;
+}
