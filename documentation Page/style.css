@@ -1,20 +1,51 @@
 code{
     background-color: rgb(25, 216, 66);
 }
-#navbar{
+aside{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+aside nav a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+/* #navbar{
     width: 25%;
-    height: 920px;
+   
     padding: 10px;
     margin-bottom: 20px;
     float: left;
+} */
+#main-doc{
+    float: right;
+    width: 85%;
+    margin: auto;
+    padding: 0%;
 }
 @media(max-width:660px){
     code{
         background-color: cornflowerblue;
     }
-    #navbar{
+     /* #navbar{
         float: left;
         position: fixed;
-        width: 450px;   
+        width: 450px;    
+    } */
+}
+@media screen and (max-height) {
+    aside{
+        padding-top: 15px;
+        }
+    aside a {
+        font-size: 18px;
     }
 }
