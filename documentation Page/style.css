@@ -31,9 +31,12 @@ aside nav a {
     margin: auto;
     padding: 0%;
 }
-@media(max-width:660px){
+@media (max-width:450px){
     code{
         background-color: cornflowerblue;
+    }
+    aside{
+        width: 
     }
      /* #navbar{
         float: left;
