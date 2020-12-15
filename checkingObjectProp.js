@@ -11,8 +11,9 @@ function checkObj(obj, checkProp) {
   }
   var name = {
     firstName: "Ridwan",
-    surName: "Yusuf"
+    surName: "Yusuf",
+    middleName: "olalekan"
   };
    
-   var h = checkObj(name,"middleName");
+   var h = checkObj(name,"otherNames");
    console.log(h)
