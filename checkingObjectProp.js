@@ -9,11 +9,13 @@ function checkObj(obj, checkProp) {
     return "Change Me!";
     
   }
-  var name = {
+  // *************the data passed in here is the object **********************
+  // *************we are checking if it has any of the properties from the query******************
+  var datas = {
     firstName: "Ridwan",
     surName: "Yusuf",
     middleName: "olalekan"
   };
-   
-   var h = checkObj(name,"otherNames");
+  //  *********************************************************************************************
+   var h = checkObj(datas,"surName");
    console.log(h)
