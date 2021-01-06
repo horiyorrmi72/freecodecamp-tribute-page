@@ -52,3 +52,6 @@ aside nav a {
         font-size: 18px;
     }
 }
+body{
+    background:linear-gradient(white, yellow)
+}
