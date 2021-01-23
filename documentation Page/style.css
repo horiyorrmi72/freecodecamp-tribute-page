@@ -36,12 +36,16 @@ aside nav a {
         background-color: cornflowerblue;
     }
     aside{
+<<<<<<< HEAD
         width:30%; 
     }
     #main-doc{
         width: 70%;
         margin: auto;
         padding: 0;
+=======
+        width: px;
+>>>>>>> de6a9496c8b4707012be96a5a0b25b20e9febae1
     }
      /* #navbar{
         float: left;
@@ -56,4 +60,7 @@ aside nav a {
     aside a {
         font-size: 18px;
     }
+}
+body{
+    background:linear-gradient(white, yellow)
 }
