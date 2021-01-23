@@ -31,12 +31,17 @@ aside nav a {
     margin: auto;
     padding: 0%;
 }
-@media (max-width:450px){
+@media (max-width:850px){
     code{
         background-color: cornflowerblue;
     }
     aside{
-        width: 
+        width:30%; 
+    }
+    #main-doc{
+        width: 70%;
+        margin: auto;
+        padding: 0;
     }
      /* #navbar{
         float: left;
