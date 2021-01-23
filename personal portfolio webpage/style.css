@@ -1,0 +1,50 @@
+#welcome-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+    color: whitesmoke; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    word-wrap: normal;
+
+}
+#welcome-section{
+    animation-name: animation;
+    animation-duration: 10s;
+}
+@keyframes animation{
+    0%{
+        background-color: darkblue;
+
+    }
+    50%{
+        background-color: darkcyan;
+
+    }
+
+    100%{
+        background-color: crimson;
+    }
+}
+
+#navbar{
+    float: left;
+    position: fixed;
+    top: 0px;
+}
+
+@media screen and (max-height){
+    #welcome-section{
+        word-wrap: break-word;
+    }
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+    }
+li a{
+    color: white;
+}
