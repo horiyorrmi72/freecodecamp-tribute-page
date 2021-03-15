@@ -21,4 +21,4 @@ switch(val){
   return answer;
 }
 
-caseInSwitch(1);
+console.log(caseInSwitch(4));
