@@ -27,7 +27,7 @@ a specific type of tea).
 const getTea = (numOfCups) => {
   const teaCups = [];
 
-  for(let cups = 1; cups <= numOfCups; cups += 1) {
+  for(let cups = 1; cups <= numOfCups; cups ++) {
     const teaCup = prepareTea();
     teaCups.push(teaCup);
   }
@@ -37,3 +37,4 @@ const getTea = (numOfCups) => {
 // Only change code below this line
 const tea4TeamFCC = getTea(40);
 // Only change code above this line
+console.log(tea4TeamFCC);
