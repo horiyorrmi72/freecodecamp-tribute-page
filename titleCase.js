@@ -10,6 +10,9 @@ function titleCase(str) {
 }
 
 console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("Remove Elements from an Array Using slice Instead of splice"));
+
+
   
 //   Code Explanation
 // The solution works by first  changing to lowercase all the characters in the string and then only change the first character of each word to uppercase.
